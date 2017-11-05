@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Open Data</title>
+
+		<meta name="description" content="Open Data">
+		<meta name="author" content="Thomas Werner">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+
+		<link rel="stylesheet" href="lib/css/my-styles.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<!-- Teil 1: Story / Einführung -->
+				<section>
+					<h2><b>Open Data</b></h2>
+
+					<br />
+           Thomas Werner
+					 <p>Code4Münster</p>
+
+					 <aside class="notes">
+					  * Möchte erzählen was "Open Data" ist
+ 						* Womit ich Geld verdiene, hat nichts mit open data zu tun
+					  * Vollzeit Programmierer bei Check24
+						* In meiner Freizeit => aktiv bei Code4Münster
+						* Treffen jeden Dienstag um mit offenen Daten zu arbeiten
+				 	 </aside>
+				</section>
+
+				<section>
+					<h2>Open Data - Definition</h2>
+
+					<blockquote>Als "Open Data" werden Daten bezeichnet,
+						die von jedermann ohne jegliche Einschränkungen genutzt,
+						weiterverbreitet und weiterverwendet werden <span class="fragment highlight-red">dürfen</span>.
+					</blockquote>
+
+					<aside class="notes">
+						* (Wikipedia) dt. "Offene Daten"
+						* Viele, Fragen mich als erstes: Ist im Internet nicht alles offen? Ich kann doch alle möglichen Daten offen abrufen.
+						* Was der Unterschied zwischen "Open Data" und Daten die frei abrufbar im Internet stehen?
+						* Das wichtige Wort hier ist: "dürfen" |||
+						* Alles ist durch das Urheberrecht geschützt
+						* Bekanntes Problem: Benötigt für die Homepage einen Kartenausschnitt, oder Foto vom Prinzipalmarkt
+						* => eigene Internetseite stellen. Großen kommerziellen Bilddatenbank.
+						* 3 Monate warten => Abmahnung vom Anwalt, 800€
+						* Leistungsschutzrecht schützt kürzeste Textstellen
+						* Open Data => man kann nicht nur / man DARF das
+						* Wo bekomme ich offene Daten her?
+					</aside>
+				</section>
+
+				<!-- Teil 4: Politik -->
+				<section>
+					<p>Open <span class="fragment">Government</span> Data</p>
+					<div class="fragment">
+						<b>Open Government</b>
+						<blockquote>
+							Open Government ist ein Synonym für die
+							Öffnung von Regierung und Verwaltung
+							gegenüber der Bevölkerung und der Wirtschaft.
+						</blockquote>
+
+					</div>
+					<aside class="notes">
+						* Ausholen, Größeren Kontext
+						* Wenn man von Open Data spricht, dann meint man oft: Open Government Data
+						* Offene Regierungsdaten
+						* In Behörden und Regierungen fallen Daten an => Bezahlt durch Steuerzahler
+						* Inhalt ist auch von Interesse für Bürger
+						* ||  Teil von "Open Governemt" (engl. "Offene Regierung")
+						* Vorlesen (Wikipedia)
+						* Open Data soll im Kontext von Behörden für mehr Transparenz sorgen
+						* Öffnung des Handelns der Verwaltung und Politik: Transparenz, Mitbestimmung
+						* Wo bekomme ich offene Daten her?
+					</aside>
+				</section>
+
+				<!-- Teil 4: Politik -->
+				<section>
+					<div>
+						<p>Open Data Portale</p>
+						<p>Europaweit / Deutschlandweit / NRW-weit / Stadt Münster</p>
+					</div>
+					<img src="image/opendata-eu.png" />
+					<aside class="notes">
+						Wo findet man open data?
+						* => Aus der Politik
+						* Open Data Portale: Super Datensätze
+						* Teils unübersichtlich, Daten undokumentiert, Excel mit Ziffernkombinationen
+						* Auch in vermeintlich uninteressante Daten ein Goldschatz stecken wenn man die kombiniert
+						* Weitere Datenquellen sind Wisschenschaft, Große Projekte Wikipedia, Open Street Maps
+						* Viele kleine Projekte, die z.B. freie Software, Grafiken, Icons, Schriftarten sammeln ("Open Content", bei Software "Open Source")
+					</aside>
+				</section>
+
+				<section>
+					<div class="fragment">
+						<h2>Lizenzen</h2>
+						<p>Spezielle Lizenzen: Für Datenbanken, für Texte, für Geo-Informationen</p>
+						<p>Creative Commons, Datenlizenz Deutschland</p>
+					</div>
+					<div class="fragment">
+						<h2>Gesetze</h2>
+						<p>Informationsweiterverwendungsgesetz - Informationsfreiheitsgesetz (IFG) - Umweltinformationsgesetz (UIG)</p>
+					</div>
+					<aside class="notes">
+						* Weil das so ein politisches Thema, und damit man sich da nicht juristisch auf Glatteis begeben muss
+						* || "Mit Namensnennung", "Ohne Namensnennung"
+						* Bekanntes Beispiel: Wikipedia = Das zählt zwar als Open Data, bzw. "Open Content", aber Quellverweis muss sein
+						* "Zero"-Lizenzen => Tu was Du willst => Public Domain
+						* Datenlizenz Deutschland: Für Kommunen, die das nicht leisten können
+						* Stadt hat Daten nicht auf dem Open Data Portal => Lizenz ungeklärt
+						* || Gesetz über die Weiterverwendung von Informationen öffentlicher Stellen (2006)
+						* Was macht man nun mit Open Data?
+					</aside>
+				</section>
+
+
+			<!-- Teil 3: Regionale Anwendungen -->
+			<section>
+				<div class="Grid">
+					<div class="Grid-cell">
+						Joggingstrecken
+						<img src="image/projekt2.jpg" />
+					</div>
+					<div class="Grid-cell">
+						Haushaltsbericht Münster
+							<img src="image/projekt1.jpg" />
+					</div>
+				</div>
+				<aside class="notes">
+					* "Open-Data-Aktivisten"
+					* Was macht man mit open data
+					* Man erkennt die Promenade, Aasee, Kanal
+					* Die Daten stammen angeblich von Runkeeper
+					* Aktuelle Projekte: Haushaltsbericht nochmal machen, aber detaillierter.
+					* Zwei Data Scientists die arbeiten an Statistischen Auswertungen der Fahrrad- und Autozählungsdaten
+					* Projekt machen zu Familiendaten
+				</aside>
+			</section>
+
+
+			<!-- Teil 3: Überregionale Treffen -->
+			<section>
+				Alle OK-Labs in Deutschland
+				<img src="image/codeforde.png" />
+				<aside class="notes">
+					* Sind sehr unterschiedlich aufgestellt
+					* Nicht nur Entwickler wie in Münster
+					* Treffen sich auch nicht so häufig
+					* Mehr politisch aktiv,
+					* mehr Involviert in der Szene: Fablabs, Makerspaces, Hackerspaces
+					* Teilweise auch Leute von der Stadt selbst aktiv in der Open Data Szene
+					* Hauptsächlich kleinere Spaß Projkte
+				</aside>
+			</section>
+
+
+				<!-- Teil 3: Überregionale Anwendungen -->
+				<section>
+					<div class="Grid">
+						<div class="Grid-cell">
+							Wo ist Markt?
+							<img src="image/ueberregional1.jpg" />
+						</div>
+						<div class="Grid-cell">
+							Feinstaub-Karte
+							<img src="image/ueberregional3.png" />
+						</div>
+					<aside class="notes">
+						* Projekte bei denen überregional Daten gesammelt werden
+						* Projekte, die man einfach für die Stadt anpassen kann
+						* => Gibt es Synergieeffekte
+						* Eine gute Idee wandert von Stadt zu Stadt
+						* Gibt es eine kommerzielle Nutzung von Open Data?
+					</aside>
+				</section>
+
+				<!-- Teil 6: Was ist für Unternehmen drin -->
+				<section>
+					Kommerzielle Verwendung von Open Data
+
+					<div class="Grid">
+						<div class="Grid-cell">
+								<img src="image/morgenpost.png" />
+						</div>
+						<div class="Grid-cell">
+							<img src="image/morgenpost2.png" />
+						</div>
+					</div>
+						Datenjournalismus, z.B. Berliner Morgenpost, Journocode (NRW)
+
+					<aside class="notes">
+						* Beispiel: Berliner Morgenpost, Datenjournalismusabteilung,
+						* Interaktive kleine Anwendungen, selbst mit den Daten herumspielen kann, und den Datensatz entdecken
+						* Zitat Wikipedia "Der volkswirtschaftliche Wert offener Daten aus der
+						  öffentlichen Verwaltung wurde 2016 von der
+							Konrad-Adenauer-Stiftung auf jährlich 43,1 Milliarden Euro geschätzt"
+						* Problem: Die meisten Unternehmen die open data nutzen halten ihre Geschäftsmodelle unter Verschluss
+						* Einstiegshürde ist relativ gering, jeder kann diese Daten nutzen
+						* Aus den Spielereien Geld machen.
+					</aside>
+
+				</section>
+				<section>
+
+					<section>
+						Hat Veröffentlichung von Open Data für Unternehmen einen Nutzen?
+						<ul>
+							<li>
+						 		<b>Deutsche Bahn</b>: Open Data Portal <q>Imagegewinn, Informationsrückfluss aus der Community (OpenStreetMap)</q>
+							</li>
+							<li>
+						 		<b>Trivago</b>: Im Rahmen von Hackathons <q>Ideengewinn, Recruiting</q>
+							</li>
+						</ul>
+						<aside class="notes">
+							* Gibt es aus Unternehmen die Open Data veröffentlichen? Und was haben die davon?
+							* Bahn = Absoluter Vorreiter,
+							* Trivago, viele weitere
+							* Veröffentlichen nur Portionsweise, Profitieren von den Ideen die dadurch reinkommen
+							* Noch Zeit?? Dann gucken, wo wir so stehen mit NRW / Münster. (nach unten)
+						</aside>
+					</section>
+
+						<section>
+							Transparenzranking.de
+							<img src="image/transparenzranking.png" />
+
+							<aside class="notes">
+								* Die gucken sich Verschiedene Kriterien an:
+								* Das IFG ist Ländersache, NRW hat seit 2001.
+								* Tranzrank. bewerten was darin geregelt ist.
+								* Nicht jeder Offene Datensatz zählt als Open Data: PDF Dateien sind kein Open Data.
+								* Open Data muss Maschinenlesbar sein
+							</aside>
+						</section>
+
+						<section>
+							Informationen von Open.NRW
+
+							<ul>
+								<li>2797 Open-Data-Datensätze auf open.nrw</li>
+								<li>Unterstützung für Kommunen</li>
+								<li>Förderung von Kommunen</li>
+							</ul>
+						</section>
+
+
+					</section>
+
+				<section>
+					<q>
+						Münster ist eine von elf Kommunen, in denen das Land Nordrhein-Westfalen ein
+						Pilotprojekt zum Thema Open Government und Open Data fördert.
+					</q>
+					<q>
+						Thema des münsterschen Vorhabens ist die "Lebenswerte und digitale Stadt: Aufbereitung der Lebenslage Familie".
+					</q>
+					<a href="http://www.citeq.de/open-data">http://www.citeq.de/open-data</a>
+					<aside class="notes">
+						* Letzte Folie => Aufruf
+						* Astrid Reich von der Citeq
+						* Hat  die Behörden abgeklappert um Daten zu sammeln
+
+						* Formular auf der Webseite: Ausfüllen
+					</aside>
+				</section>
+
+				<section>
+					<b>The End</b>
+
+					<br /><br />
+					Vielen Dank!
+					<br />Fragen?
+				</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+												<!-- Teil 2: Code 4 Münster / OK Lab -->
+												<section>
+													<div class="Grid">
+														<div class="Grid-cell">
+															<img src="image/c4m-webseite2.png" />
+														</div>
+														<div class="Grid-cell">
+															<img src="image/c4m-webseite1.png" />
+														</div>
+													</div>
+													<aside class="notes">
+														* Vor einigen Jahren
+														* 40h Job erfüllt mich nicht
+														* Freizeit eigene Ideen programmieren
+														* Zu hause, nach 8h => Nein.
+														* (Ablenkung, Erschöpft, Sofa zu nah)
+														* Woanders hin
+														* Kreative / produktive Umgebung
+														* Im Internet geschaut => C4M
+													</aside>
+												</section>
+
+												<section>
+													<div class="Grid">
+														<div class="Grid-cell">
+															Stadtteilbriefe als Karte
+															<img src="image/projekt5.jpg" />
+														</div>
+													</div>
+													<aside class="notes">
+														* Haushaltsbericht auch dieses Jahr wieder machen
+														* Stadtteilbriefe PDF
+														* Interessen der Leute: Maschinelle Lernverfahren ausprobieren, App Programmieren, Statistische Auswertung
+														* ====
+														* Überregional
+														* Einladung zu einem überregionalen Treffen
+													</aside>
+												</section>
+
+
+
+
+				<section>
+					Open Data
+					<p>Open Source <i class="fa fa-floppy-o"></i></p>
+					<p>Open Content <i class="fa fa-wikipedia-w"></i></p>
+					<p>Open Access <i class="fa fa-unlock-alt"></i></p>
+					<p>Open Government <i class="fa fa-university"></i></p>
+
+					<aside class="notes">
+						* Projekte bei denen überregional Daten gesammelt werden
+						* Projekte, die man einfach für die Stadt anpassen kann
+					</aside>
+				</section>
+
+
+
+<!--
+Was ist Open Data?
+·         Warum ist Open Data wichtig?
+·         Wie weit ist NRW beim Thema Open Data?
+·         Was ist Code4Münster?
+·         Wie kann man mitmachen?
+·         Was immer dir sonst noch einfällt und in 12 Minuten passt…
+-->
+
+				<section style="text-align: left;">
+					<h1>THE END</h1>
+					<p>
+						Danke!
+					</p>
+						Hintergrundinformtionen
+						<ul>
+							<li><a href="https://www.bmwi.de/Redaktion/DE/Artikel/Digitale-Welt/open-data.html">Open Data Definition beim BMWI</a></li>
+							<li><a href="https://transparenzranking.de/">Tranzparenzranking.de</a></li>
+							<li><a href="https://www.govdata.de/lizenzen">Datenlizenz Deutschland bei GovData</a></li>
+							<li><a href="https://open.nrw/11-fakten-ueber-open-data-in-nrw">11 Fakten über Open Data in NRW</a></li>
+						</ul>
+						Beispiele
+						<ul>
+							<li><a href="https://interaktiv.morgenpost.de">Datenjournalismus Berliner Morgenpost</a></li>
+
+						</ul>
+
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
